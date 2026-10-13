@@ -1,0 +1,25 @@
+# Raw dataset — download separately from Kaggle
+Data/
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Local inspection log
+inspection_output.txt
+
+# macOS files
+.DS_Store
+
+# Tableau temporary lock files
+*.twb.lock
+*.twbx.lock
+# Tableau temporary/recovery files
+*.twbr
